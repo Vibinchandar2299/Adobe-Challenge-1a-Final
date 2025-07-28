@@ -1,0 +1,2 @@
+PyMuPDF==1.23.8
+pytest==7.4.4 # Added for testing, as mentioned in the test file

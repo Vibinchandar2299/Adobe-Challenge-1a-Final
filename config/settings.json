@@ -1,0 +1,30 @@
+{
+    "heading_detection_thresholds": {
+        "font_size_difference_from_dominant": 1.5,
+        "bold_font_size_min_ratio_to_dominant": 0.95,
+        "max_words_for_bold_heading": 20,
+        "max_words_for_all_caps_heading": 15
+    },
+    "common_heading_keywords": [
+        "INTRODUCTION", "SUMMARY", "OVERVIEW", "APPENDIX", "CHAPTER", "SECTION",
+        "GOALS", "REFERENCES", "ACKNOWLEDGEMENTS", "PREAMBLE", "TIMELINE",
+        "BACKGROUND", "MILESTONES", "EVALUATION", "CONTENT", "MEMBERSHIP",
+        "TERMS OF REFERENCE", "BUSINESS OUTCOMES", "APPOINTMENT CRITERIA",
+        "CAREER PATHS", "LEARNING OBJECTIVES", "ENTRY REQUIREMENTS",
+        "STRUCTURE AND COURSE DURATION", "KEEPING IT CURRENT",
+        "TRADEMARKS", "DOCUMENTS AND WEB SITES", "MAIN OBJECTIVES",
+        "SCOPE", "METHODOLOGY", "RESULTS", "CONCLUSION", "RECOMMENDATIONS"
+    ],
+    "common_footer_header_patterns": [
+        "Page \\d+ of \\d+",
+        "Version \\d+(\\.\\d+)*",
+        "\\b\\w{3} \\d{1,2}, \\d{4}\\b",
+        "International Software Testing Qualifications Board",
+        "ISTQB",
+        "www\\.[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+        "Copyright",
+        "International Software Testing Qualifications Board",
+        "RFP: To Develop the Ontario Digital Library Business Plan March 2003"
+    ],
+    "max_headings_per_page": 4
+}
